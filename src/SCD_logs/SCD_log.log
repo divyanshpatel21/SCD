@@ -1,0 +1,70 @@
+2024-10-25 10:37:49,173 - root - INFO - Initializing Spark session with Snowflake JDBC and Spark Snowflake connector.
+2024-10-25 10:37:49,173 - root - INFO - Setting up Spark session configurations.
+2024-10-25 10:37:59,556 - root - INFO - Spark session successfully created with app name 'HistoriPy'.
+2024-10-25 10:37:59,556 - root - INFO - Spark session setup completed.
+2024-10-25 10:37:59,574 - root - INFO - Spark session created.........
+2024-10-25 10:37:59,574 - root - INFO - Calling the API.........
+2024-10-25 10:38:00,056 - root - INFO - API response received successfully.
+2024-10-25 10:38:00,058 - root - INFO - Creating the DataFrame.........
+2024-10-25 10:38:09,744 - root - INFO - DataFrame created and displayed successfully.
+2024-10-25 05:21:01,863 - root - INFO - Initializing Spark session with Snowflake JDBC and Spark Snowflake connector.
+2024-10-25 05:21:01,864 - root - INFO - Setting up Spark session configurations.
+2024-10-25 05:21:05,733 - root - INFO - Spark session successfully created with app name 'HistoriPy'.
+2024-10-25 05:21:05,735 - root - INFO - Spark session setup completed.
+2024-10-25 05:21:12,247 - root - INFO - Calling the API.........
+2024-10-25 05:21:12,763 - root - INFO - API response received successfully.
+2024-10-25 05:37:51,181 - root - INFO - Creating the DataFrame.........
+2024-10-25 05:37:56,477 - root - INFO - DataFrame created and displayed successfully.
+2024-10-25 06:17:19,872 - root - INFO - Initializing Spark session with Snowflake JDBC and Spark Snowflake connector.
+2024-10-25 06:17:19,873 - root - INFO - Setting up Spark session configurations.
+2024-10-25 06:17:23,434 - root - INFO - Spark session successfully created with app name 'HistoriPy'.
+2024-10-25 06:17:23,435 - root - INFO - Spark session setup completed.
+2024-10-25 06:17:23,474 - root - INFO - Spark session created.........
+2024-10-25 06:17:23,475 - root - INFO - Calling the API.........
+2024-10-25 06:17:24,171 - root - INFO - API response received successfully.
+2024-10-25 06:17:24,171 - root - INFO - Creating the DataFrame.........
+2024-10-25 06:17:29,050 - root - INFO - DataFrame created and displayed successfully.
+2024-10-25 06:17:29,248 - root - ERROR - Failed to write data to Snowflake: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `BD_CREATE_DT_TM` cannot be resolved. Did you mean one of the following? [`body`, `id`, `title`, `userId`].;
+'Project [userId#0, id#1, title#2, body#3, CASE WHEN isnull('BD_CREATE_DT_TM) THEN current_timestamp() ELSE 'BD_CREATE_DT_TM END AS BD_CREATE_DT_TM#25]
++- LogicalRDD [userId#0, id#1, title#2, body#3], false
+
+2024-10-25 06:17:29,251 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-10-25 06:18:21,387 - root - INFO - Initializing Spark session with Snowflake JDBC and Spark Snowflake connector.
+2024-10-25 06:18:21,388 - root - INFO - Setting up Spark session configurations.
+2024-10-25 06:18:25,311 - root - INFO - Spark session successfully created with app name 'HistoriPy'.
+2024-10-25 06:18:25,311 - root - INFO - Spark session setup completed.
+2024-10-25 06:18:25,362 - root - INFO - Spark session created.........
+2024-10-25 06:18:25,363 - root - INFO - Calling the API.........
+2024-10-25 06:18:25,863 - root - INFO - API response received successfully.
+2024-10-25 06:18:25,864 - root - INFO - Creating the DataFrame.........
+2024-10-25 06:18:30,635 - root - INFO - DataFrame created and displayed successfully.
+2024-10-25 06:18:30,818 - root - ERROR - Failed to write data to Snowflake: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `BD_CREATE_DT_TM` cannot be resolved. Did you mean one of the following? [`body`, `id`, `title`, `userId`].;
+'Project [userId#0, id#1, title#2, body#3, CASE WHEN isnull('BD_CREATE_DT_TM) THEN current_timestamp() ELSE 'BD_CREATE_DT_TM END AS BD_CREATE_DT_TM#25]
++- LogicalRDD [userId#0, id#1, title#2, body#3], false
+
+2024-10-25 06:18:30,820 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-10-25 06:19:31,393 - root - INFO - Initializing Spark session with Snowflake JDBC and Spark Snowflake connector.
+2024-10-25 06:19:31,394 - root - INFO - Setting up Spark session configurations.
+2024-10-25 06:19:35,048 - root - INFO - Spark session successfully created with app name 'HistoriPy'.
+2024-10-25 06:19:35,049 - root - INFO - Spark session setup completed.
+2024-10-25 06:19:35,081 - root - INFO - Spark session created.........
+2024-10-25 06:19:35,081 - root - INFO - Calling the API.........
+2024-10-25 06:19:35,568 - root - INFO - API response received successfully.
+2024-10-25 06:19:35,569 - root - INFO - Creating the DataFrame.........
+2024-10-25 06:19:40,231 - root - INFO - DataFrame created and displayed successfully.
+2024-10-25 06:19:40,433 - root - ERROR - Failed to write data to Snowflake: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `BD_CREATE_DT_TM` cannot be resolved. Did you mean one of the following? [`body`, `id`, `title`, `userId`].;
+'Project [userId#0, id#1, title#2, body#3, CASE WHEN isnull('BD_CREATE_DT_TM) THEN current_timestamp() ELSE 'BD_CREATE_DT_TM END AS BD_CREATE_DT_TM#25]
++- LogicalRDD [userId#0, id#1, title#2, body#3], false
+
+2024-10-25 06:19:40,435 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-10-25 06:21:40,809 - root - INFO - Initializing Spark session with Snowflake JDBC and Spark Snowflake connector.
+2024-10-25 06:21:40,810 - root - INFO - Setting up Spark session configurations.
+2024-10-25 06:21:44,400 - root - INFO - Spark session successfully created with app name 'HistoriPy'.
+2024-10-25 06:21:44,401 - root - INFO - Spark session setup completed.
+2024-10-25 06:21:44,454 - root - INFO - Spark session created.........
+2024-10-25 06:21:44,455 - root - INFO - Calling the API.........
+2024-10-25 06:21:45,021 - root - INFO - API response received successfully.
+2024-10-25 06:21:45,022 - root - INFO - Creating the DataFrame.........
+2024-10-25 06:21:49,629 - root - INFO - DataFrame created and displayed successfully.
+2024-10-25 06:21:58,929 - root - INFO - Data successfully written to Snowflake.
+2024-10-25 06:21:58,931 - py4j.clientserver - INFO - Closing down clientserver connection
